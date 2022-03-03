@@ -8,7 +8,7 @@ Julián Madrid A00227101
 
 ### //DERECHOS DE AUTOR// ###
 
-[Script inspirado](https://www.youtube.com/c/juande)
+[Script inspiración](https://www.youtube.com/c/juande)
 
 Assets recuperados de:
 
