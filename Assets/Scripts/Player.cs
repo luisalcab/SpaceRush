@@ -8,6 +8,7 @@ public class Boundary
     public float xMin, xMax, zMin, zMax;
 }
 
+//Comportamiento del jugador
 public class Player : MonoBehaviour
 {
     public float velocidad = 5;
@@ -28,6 +29,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        //Saca balas
+        //Al menos un ejemplo de objetos instanciados dinámicamente (18%)
          if(Input.GetKeyDown(KeyCode.Space)){
             Instantiate(balaOriginal, 
                 referenciaDePosicion.position, 
@@ -38,8 +41,11 @@ public class Player : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         
+        //Evita salida de player de pantalla
         transform.position = new Vector3(Mathf.Clamp(rig.position.x, boundary.xMin, boundary.xMax), 0f, Mathf.Clamp(rig.position.z, boundary.zMin, boundary.zMax));
 
+        //Personaje que se mueve en 4 direcciones utilizando ejes
+        //Se debe poder probar con gamepad. (17%)
         transform.Translate(
             velocidad * horizontal * Time.deltaTime, 
             0, 
