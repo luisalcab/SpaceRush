@@ -363,6 +363,7 @@ MonoBehaviour:
   spawnWait: 2
   startWait: 2
   waveWait: 3
+  texto: {fileID: 0}
 --- !u!4 &395022052
 Transform:
   m_ObjectHideFlags: 0
@@ -911,7 +912,7 @@ GameObject:
   - component: {fileID: 1633119627}
   - component: {fileID: 1633119626}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: TextFin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

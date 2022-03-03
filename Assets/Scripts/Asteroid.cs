@@ -32,6 +32,7 @@ public class Asteroid : MonoBehaviour
         }
         Destroy(other.gameObject); //Destruye objeto que colisiona con asteroide
         Destroy(gameObject); //Destruye asteroide que chocó
+        
     }
 
     void Update()
