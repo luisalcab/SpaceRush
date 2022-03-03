@@ -1,6 +1,6 @@
 # SPACE RUSH
 
-###//Autores//
+###Autores
 
 Luis Alcántara A01634185
 
@@ -8,7 +8,7 @@ Julián Madrid A00227101
 
 *Videojuego creado para uso académico*
 
-###//DERECHOS DE AUTOR//
+###DERECHOS DE AUTOR
 
 Script inspirado de: https://www.youtube.com/c/juande
 
