@@ -10,7 +10,7 @@ Julián Madrid A00227101
 
 [Script inspiración](https://www.youtube.com/c/juande)
 
-Assets recuperados de:
+**Assets recuperados de:**
 
 **Unity Asset Store** 
 
