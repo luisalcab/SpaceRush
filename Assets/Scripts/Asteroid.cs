@@ -9,11 +9,15 @@ public class Asteroid : MonoBehaviour
     public GameObject explosion; //Efecto de explosion asteroides-bala
     public GameObject playerExplosion; //Efecto de explosion player-asteroides
     public float speed;
+    public GameObject ui;
+    public Vector3 posicion;
+
 
     void Awake() {
         rig = GetComponent<Rigidbody>();
     }
     
+
     void Start()
     {
         rig.angularVelocity = Random.insideUnitSphere;  //Gira el asteroide
@@ -29,6 +33,7 @@ public class Asteroid : MonoBehaviour
         if(other.CompareTag("Player")){
             //Objeto instanciado dinámicamente, crea explosiones
             Instantiate(playerExplosion, other.transform.position, other.transform.rotation); 
+            Instantiate(ui, posicion, ui.transform.rotation);
         }
         Destroy(other.gameObject); //Destruye objeto que colisiona con asteroide
         Destroy(gameObject); //Destruye asteroide que chocó
@@ -40,4 +45,5 @@ public class Asteroid : MonoBehaviour
         //Movimiento recto de asteroides
         transform.Translate(speed*Time.deltaTime, 0, 0, Space.World); 
     }
+
 }
