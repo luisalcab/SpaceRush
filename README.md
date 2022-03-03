@@ -6,7 +6,7 @@ Luis Alcántara A01634185
 
 Julián Madrid A00227101
 
-### //DERECHOS DE AUTOR// ###
+#### //DERECHOS DE AUTOR// ####
 
 [Script inspiración](https://www.youtube.com/c/juande)
 
