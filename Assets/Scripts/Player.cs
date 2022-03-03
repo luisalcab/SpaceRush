@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     {
         //Saca balas
         //Al menos un ejemplo de objetos instanciados dinámicamente (18%)
-         if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Bala")){
             Instantiate(balaOriginal, 
                 referenciaDePosicion.position, 
                 referenciaDePosicion.rotation);
