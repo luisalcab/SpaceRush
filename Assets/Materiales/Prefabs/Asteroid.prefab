@@ -64,8 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 3}
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 3}
-  speed: -6
-  ui: {fileID: 3110413184245742324, guid: ef4218d4f799c6046a36744c5f5fed22, type: 3}
+  speed: -12
   posicion: {x: 930, y: 540, z: 0}
 --- !u!136 &1214228308247805071
 CapsuleCollider:

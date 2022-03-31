@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //Comportamiento del asteroide / asteroides
 public class Asteroid : MonoBehaviour
@@ -9,9 +10,7 @@ public class Asteroid : MonoBehaviour
     public GameObject explosion; //Efecto de explosion asteroides-bala
     public GameObject playerExplosion; //Efecto de explosion player-asteroides
     public float speed;
-    public GameObject ui;
     public Vector3 posicion;
-
 
     void Awake() {
         rig = GetComponent<Rigidbody>();
@@ -33,7 +32,8 @@ public class Asteroid : MonoBehaviour
         if(other.CompareTag("Player")){
             //Objeto instanciado dinámicamente, crea explosiones
             Instantiate(playerExplosion, other.transform.position, other.transform.rotation); 
-            Instantiate(ui, posicion, ui.transform.rotation);
+            new WaitForSeconds(6);
+            SceneManager.LoadScene("GameOver");
         }
         Destroy(other.gameObject); //Destruye objeto que colisiona con asteroide
         Destroy(gameObject); //Destruye asteroide que chocó
