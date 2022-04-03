@@ -5,14 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GUIManager : MonoBehaviour
 {
-    public static GUIManager Instance{
-        get;
-        private set;
-    }
     // Start is called before the first frame update
     void Start()
     {
-     
+        
     }
 
     // Update is called once per frame
@@ -35,5 +31,9 @@ public class GUIManager : MonoBehaviour
 
     public void MainMenu(){
         SceneManager.LoadScene(0);
+    }
+
+    public void NextLevel(){
+        SceneManager.LoadScene("Nivel2");
     }
 }
