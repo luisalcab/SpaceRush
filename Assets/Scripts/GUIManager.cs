@@ -28,7 +28,12 @@ public class GUIManager : MonoBehaviour
 
     public void Begin(){
         escenaActual = Escenas.Instance.GetEscenaActual();
-        SceneManager.LoadScene(escenaActual);
+        if(escenaActual == 1){
+            SceneManager.LoadScene("InstruccionesL1");
+        }
+        else{
+            SceneManager.LoadScene(escenaActual);
+        }
     }
 
     public void Restart(){
@@ -46,5 +51,9 @@ public class GUIManager : MonoBehaviour
         if(escenaActual < levels){
             SceneManager.LoadScene(escenaActual + 1);
         }
+    }
+
+    public void startGame(){
+        SceneManager.LoadScene(1);
     }
 }

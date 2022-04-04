@@ -236,5 +236,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257bc9fcaf641ed4a8a7156447c86840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimer: 60
+  startTimer: 75
   countDownTimer: {fileID: 7621125595618856468}
