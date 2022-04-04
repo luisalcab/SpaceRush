@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //Comportamiento del asteroide / asteroides
 public class Asteroid : MonoBehaviour
@@ -20,6 +21,7 @@ public class Asteroid : MonoBehaviour
     void Start()
     {
         rig.angularVelocity = Random.insideUnitSphere;  //Gira el asteroide
+        Escenas.Instance.SetEscenaActual(SceneManager.GetActiveScene().buildIndex);
     }
 
     //Debe haber al menos un ejemplo de detección de colisiones 

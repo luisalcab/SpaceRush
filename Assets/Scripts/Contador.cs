@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+using System.Diagnostics.Tracing;
 using System.Text;
 using System;
 using System.Collections;
@@ -5,7 +7,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+//https://youtu.be/J790fkfpeTQ
 
+[RequireComponent(typeof(Text))]
 public class Contador : MonoBehaviour
 {
     [SerializeField]
@@ -13,10 +17,14 @@ public class Contador : MonoBehaviour
     float counter;
     [SerializeField]
     Text countDownTimer;
+    int escenaActual;
+    int levels;
     // Start is called before the first frame update
     void Start()
     {
         counter = startTimer;
+        escenaActual = Escenas.Instance.GetEscenaActual();
+        levels = Escenas.Instance.GetEscenas();
     }
 
     // Update is called once per frame
@@ -26,7 +34,14 @@ public class Contador : MonoBehaviour
             counter -= Time.deltaTime;
         }
         else if (counter <= 0){
-            SceneManager.LoadScene("Win");
+            if(escenaActual == levels){
+                Load.scene = "Final";
+                SceneManager.LoadScene("Load");
+            }
+            else{
+                Load.scene = "Win";
+                SceneManager.LoadScene("Load");
+            }
         }
 
         TextoTimer();

@@ -66,7 +66,7 @@ MonoBehaviour:
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 3}
   speed: -10
   posicion: {x: 930, y: 540, z: 0}
-  GO: {fileID: 4156759167861589584, guid: 67ad8d44759516449984e0c81f01bc23, type: 3}
+  GO: {fileID: 2972496116537366631, guid: 67ad8d44759516449984e0c81f01bc23, type: 3}
 --- !u!136 &1214228308247805071
 CapsuleCollider:
   m_ObjectHideFlags: 0
