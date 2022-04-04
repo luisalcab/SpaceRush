@@ -907,7 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45da93847a99a5549be758a444c33058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 20
+  velocidad: 15
   tilt: 5
   balaOriginal: {fileID: 8307132076684377071, guid: a9fa00ecb2753074db59bfd179bf065d, type: 3}
   referenciaDePosicion: {fileID: 8860733}
