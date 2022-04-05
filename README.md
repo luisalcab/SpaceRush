@@ -10,6 +10,10 @@ Julián Madrid A00227101
 
 [Script inspiración 1er Nivel](https://www.youtube.com/c/juande)
 
+[Script inspiración 2do Nivel 1.0](https://youtu.be/uRWmEjxY334)
+
+[Script inspiración 2do Nivel 2.](https://www.youtube.com/c/juande)
+
 **Assets recuperados de:**
 
 **//Unity Asset Store//** 
