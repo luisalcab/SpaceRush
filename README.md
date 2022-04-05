@@ -12,7 +12,7 @@ Julián Madrid A00227101
 
 [Script inspiración 2do Nivel 1.0](https://youtu.be/uRWmEjxY334)
 
-[Script inspiración 2do Nivel 2.](https://www.youtube.com/c/juande)
+[Script inspiración 2do Nivel 2.](https://youtu.be/J790fkfpeTQ)
 
 **Assets recuperados de:**
 
