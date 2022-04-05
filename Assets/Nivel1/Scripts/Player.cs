@@ -17,14 +17,17 @@ public class Player : MonoBehaviour
     public Transform referenciaDePosicion;
     public Boundary boundary;
     private Rigidbody rig;
+    [SerializeField]
+    private GameObject contador;
      
     void Awake(){
         rig = GetComponent<Rigidbody>();
+
     }
     
     void Start()
     {
-        
+        Instantiate(contador, transform.position, Quaternion.identity);
     }
 
     void Update()

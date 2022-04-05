@@ -8,8 +8,6 @@ public class MovimientoPilares : MonoBehaviour
     private float speed;
     public GameObject pilar;
     private bool mov;
-    [SerializeField]
-    private GameObject contador;
     // Start is called before the first frame update
     void Start()
     {
