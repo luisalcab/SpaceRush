@@ -8,13 +8,19 @@ Julián Madrid A00227101
 
 #### //DERECHOS DE AUTOR// ####
 
-[Script inspiración](https://www.youtube.com/c/juande)
+[Script inspiración 1er Nivel](https://www.youtube.com/c/juande)
+
+[Script inspiración 2do Nivel 1.0](https://youtu.be/uRWmEjxY334)
+
+[Script inspiración 2do Nivel 2.0](https://youtu.be/J790fkfpeTQ)
 
 **Assets recuperados de:**
 
 **//Unity Asset Store//** 
 
-[Assets de background](https://assetstore.unity.com/packages/2d/textures-materials/dynamic-space-background-lite-104606)
+[Extreme Sci-Fi LITE](https://assetstore.unity.com/packages/3d/environments/sci-fi/extreme-sci-fi-lite-50727)
+
+[Dynamic Space Background Lite](https://assetstore.unity.com/packages/2d/textures-materials/dynamic-space-background-lite-104606)
 
 **//Cuenta personal//** 
 
