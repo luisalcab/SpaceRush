@@ -21,7 +21,7 @@ public class SpawnPilares : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")){
             if(contAct == 0){
                 StartCoroutine(Pilares()); 
-                contAct = contAct + 1;
+                contAct ++;
             }
         }
     }
