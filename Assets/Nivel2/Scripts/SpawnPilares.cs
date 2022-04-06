@@ -9,17 +9,21 @@ public class SpawnPilares : MonoBehaviour
     public GameObject pilar;
     [SerializeField]
     private float wait;
-    public float height;
+    private int contAct = 0;
     // Start is called before the first frame update
     void Start()
     { 
-        StartCoroutine(Pilares()); 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")){
+            if(contAct == 0){
+                StartCoroutine(Pilares()); 
+                contAct = contAct + 1;
+            }
+        }
     }
 
     IEnumerator Pilares()

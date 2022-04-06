@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-//https://youtu.be/J790fkfpeTQ
 
 [RequireComponent(typeof(Text))]
 public class Contador : MonoBehaviour

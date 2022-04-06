@@ -279,7 +279,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pilar: {fileID: 1068583729}
   wait: 6
-  height: 1
 --- !u!4 &592892601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 62ea8a5ca94c546f29ba6dea8f379a7b, type: 3}
@@ -906,7 +905,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -1
   pilar: {fileID: 1068583729}
-  contador: {fileID: 7621125596057601975, guid: 6e8aaaec3a8e49c449ed5eb5134b73da, type: 3}
 --- !u!1 &1291717330
 GameObject:
   m_ObjectHideFlags: 0
