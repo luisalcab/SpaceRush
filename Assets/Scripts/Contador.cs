@@ -1,3 +1,5 @@
+using System.Net.Sockets;
+using System.Xml.Serialization;
 using System.Runtime.CompilerServices;
 using System.Diagnostics.Tracing;
 using System.Text;
@@ -18,9 +20,11 @@ public class Contador : MonoBehaviour
     Text countDownTimer;
     int escenaActual;
     int levels;
-    // Start is called before the first frame update
+    SoundManager sound;
+    
     void Start()
     {
+        sound = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         counter = startTimer;
         escenaActual = Escenas.Instance.GetEscenaActual();
         levels = Escenas.Instance.GetEscenas();
@@ -33,6 +37,7 @@ public class Contador : MonoBehaviour
             counter -= Time.deltaTime;
         }
         else if (counter <= 0){
+            sound.stopMusic();
             if(escenaActual == levels){
                 Load.scene = "Final";
                 SceneManager.LoadScene("Load");

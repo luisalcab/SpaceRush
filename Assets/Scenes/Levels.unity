@@ -989,7 +989,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 304835681127249736, guid: 408e580f1fd47494ba1e8188f63e742c, type: 3}
         m_TargetAssemblyTypeName: GUIManager, Assembly-CSharp
-        m_MethodName: NextLevel
+        m_MethodName: Nivel2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
