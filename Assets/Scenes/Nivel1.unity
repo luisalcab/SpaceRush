@@ -820,8 +820,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 0179e699e377b1c4b9db3208cb961381, type: 3}
-  - {fileID: 8300000, guid: 76cb8b1279796c4498ed2071032d9de3, type: 3}
+  - {fileID: 8300000, guid: fcebeb04ef548ee43bcc1ea2faa2caad, type: 3}
+  - {fileID: 8300000, guid: 56f8ca732cfca49d3b379f4aa575c786, type: 3}
 --- !u!82 &1006927316
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1100,8 +1100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: ef3e6346fb7b059469b3a3b314570af9, type: 3}
-  - {fileID: 8300000, guid: b91b5ce7294fbae4a9d2ab581f25dae1, type: 3}
+  - {fileID: 8300000, guid: 5ff823f546b52574a931e1d9b44290a6, type: 3}
+  - {fileID: 8300000, guid: 1fd31868d68903d4f9e2c4a3b7ef98f3, type: 3}
 --- !u!82 &1099905842
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1309,7 +1309,7 @@ MonoBehaviour:
     zMax: 4.4
   contador: {fileID: 7621125596057601975, guid: 6e8aaaec3a8e49c449ed5eb5134b73da, type: 3}
   clips:
-  - {fileID: 8300000, guid: a69b1917a27f1dc42924bf31f5649f4b, type: 3}
+  - {fileID: 8300000, guid: 4310474905e266640852f43bd609a1a4, type: 3}
 --- !u!82 &1144912275
 AudioSource:
   m_ObjectHideFlags: 0
