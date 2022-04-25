@@ -29,9 +29,9 @@ public class SpawnPilares : MonoBehaviour
     IEnumerator Pilares()
     {
         while(true){ 
-            Vector3 spawnPosition = new Vector3(10, Random.Range(4.5f, 7.5f), 0);
+            Vector3 spawnPosition = new Vector3(8, Random.Range(4.5f, 7.5f), 0);
             GameObject newpilar = Instantiate(pilar, spawnPosition, pilar.transform.rotation);
-            Destroy(newpilar, 20);
+            Destroy(newpilar, 7);
             yield return new WaitForSeconds(wait);
         }
         

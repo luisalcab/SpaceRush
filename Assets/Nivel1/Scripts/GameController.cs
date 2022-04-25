@@ -7,11 +7,13 @@ public class GameController : MonoBehaviour
 {
     //Peligro = hazard = asteroides
     public GameObject peligro;
+    //public GameObject peligroG;
     public Vector3 spawnValues;
     public int cantAsteroids;
     public float spawnWait;
     public float startWait;
     public float waveWait;
+    //private int asteroideCount = 0;
 
     void Start()
     {
@@ -27,6 +29,7 @@ public class GameController : MonoBehaviour
         while(true){ 
             for(int i = 0; i < cantAsteroids; i++){
                 Vector3 spawnPosition = new Vector3(spawnValues.x, spawnValues.y, Random.Range(-spawnValues.z, spawnValues.z));
+
                 //Objetos instanciados dinámicamente
                 Instantiate(peligro, spawnPosition, Quaternion.identity);
                 yield return new WaitForSeconds(spawnWait);

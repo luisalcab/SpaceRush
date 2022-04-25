@@ -56,4 +56,18 @@ public class GUIManager : MonoBehaviour
     public void startGame(){
         SceneManager.LoadScene(1);
     }
+
+    public void Levels(){
+        SceneManager.LoadScene(8);
+    }
+
+    public void Nivel1(){
+        Escenas.Instance.SetEscenaActual(1);
+        SceneManager.LoadScene("InstruccionesL1");
+    }
+    
+    public void Nivel2(){
+        Escenas.Instance.SetEscenaActual(2);
+        SceneManager.LoadScene(2);
+    }
 }

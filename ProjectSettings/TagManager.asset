@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Limite
   - Obstaculos
+  - ExpManager
   layers:
   - Default
   - TransparentFX

@@ -16,10 +16,13 @@ public class Player_L2 : MonoBehaviour
     public GameObject playerExplosion;
     [SerializeField]
     private Text instrucciones;
+    ExplosionManager sound;
+    int cont = 0;
 
     void Start()
     {
         rb = GetComponent <Rigidbody>();
+        sound = GameObject.Find("ExplosionsManager").GetComponent<ExplosionManager>();
         globalGravity = 0;
         rb.useGravity = false;
         
@@ -32,6 +35,10 @@ public class Player_L2 : MonoBehaviour
             globalGravity = -9.81f;
             rb.velocity = Vector3.up * fuerzaSalto;
             Escenas.Instance.SetEscenaActual(SceneManager.GetActiveScene().buildIndex);
+            if(cont == 0){
+                SoundManager.Instance.Nivel2();
+                cont ++;
+            }
             Destroy(instrucciones); 
         }
     }
@@ -44,18 +51,24 @@ public class Player_L2 : MonoBehaviour
     void OnTriggerExit(Collider other){
 
         if(other.CompareTag("Limite")){
+            
             Instantiate(GO, GO.transform.position, GO.transform.rotation); 
             Instantiate(playerExplosion, transform.position, transform.rotation); 
             Destroy(gameObject);
+            sound.ExplosionPlayer();
+            SoundManager.Instance.stopMusic();
         }    
     }
 
     void OnTriggerEnter(Collider other){
 
         if(other.CompareTag("Obstaculos")){
+            
             Instantiate(GO, GO.transform.position, GO.transform.rotation); 
             Instantiate(playerExplosion, transform.position, transform.rotation); 
             Destroy(gameObject);
+            sound.ExplosionPlayer();
+            SoundManager.Instance.stopMusic();
         }    
     }
 }

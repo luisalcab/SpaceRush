@@ -12,6 +12,7 @@ public class Asteroid : MonoBehaviour
     public float speed;
     public Vector3 posicion;
     public GameObject GO;
+    ExplosionManager sound;
 
     void Awake() {
         rig = GetComponent<Rigidbody>();
@@ -20,6 +21,7 @@ public class Asteroid : MonoBehaviour
 
     void Start()
     {
+        sound = GameObject.Find("ExplosionsManager").GetComponent<ExplosionManager>();
         rig.angularVelocity = Random.insideUnitSphere;  //Gira el asteroide
         Escenas.Instance.SetEscenaActual(SceneManager.GetActiveScene().buildIndex);
     }
@@ -28,13 +30,17 @@ public class Asteroid : MonoBehaviour
     //que sea congruente con tu tipo de juego (17%)
     void OnTriggerEnter(Collider other){
         if(other.tag == "Limite") return; //Evita colisiones con objeto limite
-
         //Objeto instanciado dinámicamente, crea explosiones
         Instantiate(explosion, transform.position, transform.rotation); 
         if(other.CompareTag("Player")){
             //Objeto instanciado dinámicamente, crea explosiones
             Instantiate(playerExplosion, other.transform.position, other.transform.rotation); 
             Instantiate(GO, GO.transform.position, GO.transform.rotation); 
+            SoundManager.Instance.stopMusic();
+            sound.ExplosionPlayer();
+        }
+        else{
+            sound.ExplosionAsteroid();
         }
         Destroy(other.gameObject); //Destruye objeto que colisiona con asteroide
         Destroy(gameObject); //Destruye asteroide que chocó

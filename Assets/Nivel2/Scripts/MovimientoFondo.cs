@@ -12,7 +12,7 @@ public class MovimientoFondo : MonoBehaviour
     private GameObject contador;
     private int contAct = 0;
     private bool mov;
-    public int cont = 0;
+    private int cont = 0;
     // Start is called before the first frame update
     void Start()
     {
