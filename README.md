@@ -1,20 +1,24 @@
 # SPACE RUSH #
 
-### //AUTORES// ###
+### //AUTHORS// ###
 
 Luis Alcántara A01634185 
 
 Julián Madrid A00227101
 
-#### //DERECHOS DE AUTOR// ####
+### //GAME IN itch.io// ###
 
-[Script inspiración 1er Nivel](https://www.youtube.com/c/juande)
+[SPACE RUSH](https://luisalcab.itch.io/spacerush)
 
-[Script inspiración 2do Nivel 1.0](https://youtu.be/uRWmEjxY334)
+#### //COPYRIGHT// ####
 
-[Script inspiración 2do Nivel 2.0](https://youtu.be/J790fkfpeTQ)
+[Script inspiration 1st Level](https://www.youtube.com/c/juande)
 
-**Assets recuperados de:**
+[Inspiration Script 2nd Level 1.0](https://youtu.be/uRWmEjxY334)
+
+[Inspiration Script 2nd Level 2.0](https://youtu.be/J790fkfpeTQ)
+
+**Assets recovered from:**
 
 **//Unity Asset Store//** 
 
@@ -30,10 +34,10 @@ Julián Madrid A00227101
 
 [Free Sound Effects Pack](https://assetstore.unity.com/packages/audio/sound-fx/free-sound-effects-pack-155776#content)
 
-**//Cuenta personal//** 
+**//Personal account//** 
 
-[Assets naves, asteroides, etc](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGoyZmY3aXZoTTRSc1dfN2VUVHNTaG0zUm1nUXxBQ3Jtc0ttT0pFcXQ1ZzRrYjY0WWdIczhwcXFQMjktTVpiR1Z3eEpxN05Yc2ZzRUgtZlJfc1o2ejVSS09uaVJ6TWdwWXhreVE0R1VEOU5TcDJhYnhhR2hQUGdLakkxYWd2YldOVFVNR2hNZDFRczFGRXRPOUZpQQ&q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwqi0ooxjgt9xbwz%2FSpace%2520Shooter.unitypackage%3Fdl%3D1)
+[Assets ships, asteroids, etc.](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGoyZmY3aXZoTTRSc1dfN2VUVHNTaG0zUm1nUXxBQ3Jtc0ttT0pFcXQ1ZzRrYjY0WWdIczhwcXFQMjktTVpiR1Z3eEpxN05Yc2ZzRUgtZlJfc1o2ejVSS09uaVJ6TWdwWXhreVE0R1VEOU5TcDJhYnhhR2hQUGdLakkxYWd2YldOVFVNR2hNZDFRczFGRXRPOUZpQQ&q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwqi0ooxjgt9xbwz%2FSpace%2520Shooter.unitypackage%3Fdl%3D1)
 
-*(Assets de uso gratuito)*
+*(Free to use assets)*
 
-*Videojuego creado para uso académico*
+*Video game created for academic use*
