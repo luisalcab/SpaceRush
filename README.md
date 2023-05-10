@@ -8,7 +8,8 @@ Julián Madrid A00227101
 
 ### //DESCRIPTION// ###
 
-Videogame made with Unity for academic use. The main theme of the game is space, in which a ship passes through various places with various obstacles.
+Videogame made with Unity for academic use. \
+The main theme of the game is space, in which a ship passes through various places with various obstacles.
 
 ### //GAME IN itch.io// ###
 
