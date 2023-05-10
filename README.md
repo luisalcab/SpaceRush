@@ -6,6 +6,10 @@ Luis Alcántara A01634185
 
 Julián Madrid A00227101
 
+### //DESCRIPTION// ###
+
+Videogame made with Unity for academic use. The main theme of the game is space, in which a ship passes through various places with various obstacles.
+
 ### //GAME IN itch.io// ###
 
 [SPACE RUSH](https://luisalcab.itch.io/spacerush)
