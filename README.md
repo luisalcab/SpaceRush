@@ -1,4 +1,4 @@
-# SPACE RUSH #
+# SPACE RUSH 💫 #
 
 ### //AUTHORS// ###
 
